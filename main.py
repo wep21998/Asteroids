@@ -9,7 +9,9 @@ def main():
     # Set game window
     screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
     # Initialize main game loop
-
+    while True:
+        screen.fill((0,0,0))
+        pygame.display.flip()
 
 
 
